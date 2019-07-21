@@ -7,5 +7,5 @@ This page "M4" is testing for Nano Pi M4
                   
 **- M4_Readall.png** - screenshot of the output in the terminal command "gpio readall".
 
-For sie CPU temperature from terminal:
+For read **CPU temperature** from terminal:
 ```cat  /sys/class/thermal/thermal_zone1/temp | cut -c 1-2```
